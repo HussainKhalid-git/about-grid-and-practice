@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 600px;
+    width: 800px;
+    border: 3px solid red;
+    margin: 30px 20px;
+    display: grid;
+    /* gap: 10px; (for row and column both */
+    row-gap: 20px;
+    column-gap: 30px;
+    /* grid-template-columns: 100px 200px 300px; */
+    /* grid-template-columns: 1fr 1fr 1fr 1fr; */
+    /* grid-template-columns: repeat(4,1fr); */
+    /* grid-template-columns: repeat(auto-fill,200px); */
+    grid-template-columns: 200px 100px ;
+    grid-template-rows: 200px 80px;
+    /* don't indicate which rows its take auto rows 300px */
+    /* grid-auto-rows: 300px; */
+    /* justify-content: indicates the x-axis */
+    /* justify-content: end; */
+    /* justify-content: center; */
+    /* justify-content: space-around; */
+    /* justify-content: space-between; */
+    /* justify-content: space-evenly; */
+
+
+    /* align content: indicates the  y-axis */
+    /* align-content: center; */
+    /* align-content: space-between; */
+
+
+    /* align-items: indicates kore div k shdumatro oi dive er vitor items golu k start,end,center etc. kora jai */
+    /* align-items: center; */
+    align-items: end;
+
+}
+
+.box {
+    border: 2px solid forestgreen;
+    padding: 12px;
+}
